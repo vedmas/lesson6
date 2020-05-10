@@ -5,6 +5,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "users")
+@Cacheable
 public class User {
 
     @Id
